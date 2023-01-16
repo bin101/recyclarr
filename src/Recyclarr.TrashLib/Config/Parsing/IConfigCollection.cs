@@ -4,6 +4,6 @@ namespace Recyclarr.TrashLib.Config.Parsing;
 
 public interface IConfigCollection
 {
-    IReadOnlyCollection<T> Get<T>(SupportedServices serviceType) where T : ServiceConfiguration;
+    IReadOnlyCollection<IServiceConfiguration> Get(SupportedServices? serviceType);
     bool DoesConfigExist(string name);
 }

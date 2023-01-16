@@ -55,7 +55,7 @@ secret_rp: 1234567
         };
 
         var parsedSecret = configLoader.LoadFromStream(new StringReader(testYml), "sonarr");
-        parsedSecret.Get<SonarrConfiguration>(SupportedServices.Sonarr)
+        parsedSecret.Get(SupportedServices.Sonarr)
             .Should().BeEquivalentTo(expected, o => o.Excluding(x => x.LineNumber));
     }
 

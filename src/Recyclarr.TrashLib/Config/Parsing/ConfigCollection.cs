@@ -5,16 +5,16 @@ namespace Recyclarr.TrashLib.Config.Parsing;
 
 public class ConfigCollection : IConfigCollection
 {
-    private readonly Dictionary<SupportedServices, List<ServiceConfiguration>> _configs = new();
+    private readonly Dictionary<SupportedServices, List<IServiceConfiguration>> _configs = new();
 
-    public void Add(SupportedServices configType, ServiceConfiguration config)
+    public void Add(SupportedServices configType, IServiceConfiguration config)
     {
         _configs.GetOrCreate(configType).Add(config);
     }
 
-    public IReadOnlyCollection<T> Get<T>(SupportedServices serviceType) where T : ServiceConfiguration
+    public IReadOnlyCollection<IServiceConfiguration> Get(SupportedServices? serviceType)
     {
-        return _configs[serviceType].Cast<T>().ToList();
+        return serviceType is null ? _configs.Values.SelectMany(x => x).ToList() : _configs[serviceType.Value];
     }
 
     public bool DoesConfigExist(string name)

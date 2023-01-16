@@ -41,7 +41,7 @@ public class CacheStoragePath : ICacheStoragePath
     public IFileInfo CalculatePath(string cacheObjectName)
     {
         return _paths.CacheDirectory
-            .SubDirectory(_config.ServiceName.ToLower(CultureInfo.CurrentCulture))
+            .SubDirectory(_config.ServiceType.ToString().ToLower(CultureInfo.CurrentCulture))
             .SubDirectory(BuildUniqueServiceDir())
             .File(cacheObjectName + ".json");
     }
