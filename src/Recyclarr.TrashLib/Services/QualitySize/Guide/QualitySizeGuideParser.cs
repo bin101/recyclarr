@@ -7,7 +7,7 @@ using Serilog;
 
 namespace Recyclarr.TrashLib.Services.QualitySize.Guide;
 
-internal class QualitySizeGuideParser<T> where T : class
+public class QualitySizeGuideParser
 {
     private readonly ILogger _log;
 
@@ -16,7 +16,7 @@ internal class QualitySizeGuideParser<T> where T : class
         _log = log;
     }
 
-    public ICollection<T> GetQualities(IEnumerable<IDirectoryInfo> jsonDirectories)
+    public IReadOnlyList<QualitySizeData> GetQualities(IEnumerable<IDirectoryInfo> jsonDirectories)
     {
         return JsonUtils.GetJsonFilesInDirectories(jsonDirectories, _log)
             .Select(ParseQuality)
@@ -24,7 +24,7 @@ internal class QualitySizeGuideParser<T> where T : class
             .ToList();
     }
 
-    private T? ParseQuality(IFileInfo jsonFile)
+    private QualitySizeData? ParseQuality(IFileInfo jsonFile)
     {
         var serializer = JsonSerializer.Create(new JsonSerializerSettings
         {
@@ -35,7 +35,7 @@ internal class QualitySizeGuideParser<T> where T : class
         });
 
         using var json = new JsonTextReader(jsonFile.OpenText());
-        var quality = serializer.Deserialize<T>(json);
+        var quality = serializer.Deserialize<QualitySizeData>(json);
         if (quality is null)
         {
             _log.Debug("Failed to parse quality definition JSON file: {Filename}", jsonFile.FullName);
