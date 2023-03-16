@@ -1,10 +1,8 @@
 using Newtonsoft.Json.Linq;
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Json;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Guide;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
+using Recyclarr.Common;
+using Recyclarr.TestLibrary;
 
-namespace Recyclarr.TrashLib.Tests.Pipelines.CustomFormat.Guide;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Compatibility.Radarr;
+namespace Recyclarr.TrashLib;
 
 // ReSharper disable once NotAccessedPositionalProperty.Global
 //

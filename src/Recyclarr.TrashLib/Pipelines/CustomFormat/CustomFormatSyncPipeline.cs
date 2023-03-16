@@ -1,12 +1,7 @@
 using System.Collections.ObjectModel;
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Cache;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.PipelinePhases;
-using Recyclarr.TrashLib.Processors;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat;
+namespace Recyclarr.TrashLib;
 
 public interface ICustomFormatPipelinePhases
 {

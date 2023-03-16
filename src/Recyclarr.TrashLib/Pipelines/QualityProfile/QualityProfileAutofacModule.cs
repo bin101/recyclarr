@@ -1,9 +1,7 @@
 using Autofac;
 using Autofac.Extras.AggregateService;
-using Recyclarr.TrashLib.Pipelines.QualityProfile.Api;
-using Recyclarr.TrashLib.Pipelines.QualityProfile.PipelinePhases;
 
-namespace Recyclarr.TrashLib.Pipelines.QualityProfile;
+namespace Recyclarr.TrashLib;
 
 public class QualityProfileAutofacModule : Module
 {

@@ -1,7 +1,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace Recyclarr.TrashLib.Json;
+namespace Recyclarr.TrashLib;
 
 public static class ServiceJsonSerializerFactory
 {

@@ -1,6 +1,6 @@
 using System.Collections;
 
-namespace Recyclarr.Common.Extensions;
+namespace Recyclarr.Common;
 
 public static class CollectionExtensions
 {

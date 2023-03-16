@@ -1,10 +1,7 @@
 using Autofac;
 using Autofac.Extras.AggregateService;
-using Recyclarr.TrashLib.Pipelines.QualitySize.Api;
-using Recyclarr.TrashLib.Pipelines.QualitySize.Guide;
-using Recyclarr.TrashLib.Pipelines.QualitySize.PipelinePhases;
 
-namespace Recyclarr.TrashLib.Pipelines.QualitySize;
+namespace Recyclarr.TrashLib;
 
 public class QualitySizeAutofacModule : Module
 {

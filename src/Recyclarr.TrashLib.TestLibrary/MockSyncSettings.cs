@@ -1,6 +1,3 @@
-using Recyclarr.TrashLib.Config;
-using Recyclarr.TrashLib.Processors;
-
 namespace Recyclarr.TrashLib.TestLibrary;
 
 public static class MockSyncSettings

@@ -3,7 +3,7 @@ using YamlDotNet.Core;
 using YamlDotNet.Core.Events;
 using YamlDotNet.Serialization;
 
-namespace Recyclarr.Common.YamlDotNet;
+namespace Recyclarr.Common;
 
 // Borrowed from: https://github.com/aaubry/YamlDotNet/issues/443#issuecomment-544449498
 public sealed class ForceEmptySequences : INodeDeserializer

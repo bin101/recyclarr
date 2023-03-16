@@ -1,7 +1,7 @@
 using AutoFixture;
 using AutoFixture.AutoNSubstitute;
 
-namespace Recyclarr.TestLibrary.AutoFixture;
+namespace Recyclarr.TestLibrary;
 
 public static class NSubstituteFixture
 {

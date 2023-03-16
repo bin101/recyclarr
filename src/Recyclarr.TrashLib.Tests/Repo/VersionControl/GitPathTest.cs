@@ -1,7 +1,6 @@
-using Recyclarr.TrashLib.Config.Settings;
-using Recyclarr.TrashLib.Repo.VersionControl;
+using Recyclarr.TestLibrary;
 
-namespace Recyclarr.TrashLib.Tests.Repo.VersionControl;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

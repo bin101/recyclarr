@@ -1,17 +1,11 @@
 using System.Reflection;
 using Autofac;
 using FluentValidation;
-using Recyclarr.TrashLib.Config.Listers;
-using Recyclarr.TrashLib.Config.Parsing;
-using Recyclarr.TrashLib.Config.Secrets;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Config.Settings;
-using Recyclarr.TrashLib.Config.Yaml;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.ObjectFactories;
 using Module = Autofac.Module;
 
-namespace Recyclarr.TrashLib.Config;
+namespace Recyclarr.TrashLib;
 
 public class ConfigAutofacModule : Module
 {

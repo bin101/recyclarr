@@ -1,5 +1,5 @@
 using Recyclarr.Cli.TestLibrary;
-using Recyclarr.TrashLib.Config.Settings;
+using Recyclarr.TrashLib;
 
 namespace Recyclarr.Cli.Tests;
 

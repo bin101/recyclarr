@@ -1,7 +1,6 @@
 using System.IO.Abstractions;
-using Recyclarr.TrashLib.Startup;
 
-namespace Recyclarr.TrashLib.Config.Parsing;
+namespace Recyclarr.TrashLib;
 
 public class ConfigurationFinder : IConfigurationFinder
 {

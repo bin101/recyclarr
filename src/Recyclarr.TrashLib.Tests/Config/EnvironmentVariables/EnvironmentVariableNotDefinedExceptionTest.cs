@@ -1,6 +1,4 @@
-using Recyclarr.TrashLib.Config.EnvironmentVariables;
-
-namespace Recyclarr.TrashLib.Tests.Config.EnvironmentVariables;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.ApiServices.System.Dto;
+namespace Recyclarr.TrashLib;
 
 public record SystemStatus(
     string AppName,

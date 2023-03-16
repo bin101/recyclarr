@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.ExceptionTypes;
+namespace Recyclarr.TrashLib;
 
 public class FileExistsException : Exception
 {

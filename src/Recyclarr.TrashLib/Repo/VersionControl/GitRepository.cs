@@ -1,9 +1,8 @@
 using System.IO.Abstractions;
 using System.Text;
 using CliWrap;
-using Recyclarr.TrashLib.Startup;
 
-namespace Recyclarr.TrashLib.Repo.VersionControl;
+namespace Recyclarr.TrashLib;
 
 public sealed class GitRepository : IGitRepository
 {

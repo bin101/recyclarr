@@ -1,6 +1,4 @@
-using Recyclarr.TrashLib.Config.Services;
-
-namespace Recyclarr.TrashLib.Processors;
+namespace Recyclarr.TrashLib;
 
 public interface IServiceProcessor
 {

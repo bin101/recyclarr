@@ -1,6 +1,6 @@
 using System.Collections.Immutable;
 
-namespace Recyclarr.TrashLib.Config.Secrets;
+namespace Recyclarr.TrashLib;
 
 public interface ISecretsProvider
 {

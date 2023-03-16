@@ -1,8 +1,6 @@
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Api.Objects;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Models;
 using Spectre.Console;
 
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile.PipelinePhases;
+namespace Recyclarr.TrashLib;
 
 public class ReleaseProfilePreviewPhase
 {

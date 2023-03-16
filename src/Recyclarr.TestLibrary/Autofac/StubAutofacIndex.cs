@@ -1,7 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
 using Autofac.Features.Indexed;
 
-namespace Recyclarr.TestLibrary.Autofac;
+namespace Recyclarr.TestLibrary;
 
 public class StubAutofacIndex<TKey, TValue> : IIndex<TKey, TValue>
     where TKey : notnull

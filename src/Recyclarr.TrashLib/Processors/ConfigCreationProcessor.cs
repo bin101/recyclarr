@@ -1,9 +1,7 @@
 using System.IO.Abstractions;
 using Recyclarr.Common;
-using Recyclarr.TrashLib.ExceptionTypes;
-using Recyclarr.TrashLib.Startup;
 
-namespace Recyclarr.TrashLib.Processors;
+namespace Recyclarr.TrashLib;
 
 public class ConfigCreationProcessor : IConfigCreationProcessor
 {

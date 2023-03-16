@@ -1,6 +1,4 @@
-using Recyclarr.TrashLib.Config.Settings;
-
-namespace Recyclarr.TrashLib.Repo.VersionControl;
+namespace Recyclarr.TrashLib;
 
 public class GitPath : IGitPath
 {

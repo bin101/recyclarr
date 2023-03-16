@@ -1,4 +1,4 @@
-namespace Recyclarr.Cli.Migration;
+namespace Recyclarr.Cli;
 
 public class MigrationException : Exception
 {

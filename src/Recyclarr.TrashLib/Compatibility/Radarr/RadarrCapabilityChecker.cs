@@ -1,6 +1,4 @@
-using Recyclarr.TrashLib.ApiServices.System;
-
-namespace Recyclarr.TrashLib.Compatibility.Radarr;
+namespace Recyclarr.TrashLib;
 
 public class RadarrCapabilityChecker : ServiceCapabilityChecker<RadarrCapabilities>
 {

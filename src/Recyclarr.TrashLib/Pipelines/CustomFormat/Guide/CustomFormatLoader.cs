@@ -3,10 +3,8 @@ using System.Reactive.Linq;
 using System.Reactive.Threading.Tasks;
 using Newtonsoft.Json;
 using Recyclarr.Common;
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
 
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.Guide;
+namespace Recyclarr.TrashLib;
 
 public class CustomFormatLoader : ICustomFormatLoader
 {

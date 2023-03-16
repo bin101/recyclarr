@@ -1,5 +1,3 @@
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
-
 namespace Recyclarr.TrashLib.TestLibrary;
 
 public static class NewCf

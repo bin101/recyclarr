@@ -1,6 +1,4 @@
-using Recyclarr.TrashLib.Pipelines.QualitySize.Guide;
-
-namespace Recyclarr.TrashLib.Pipelines.QualitySize;
+namespace Recyclarr.TrashLib;
 
 public class QualitySizeItem : QualityItem
 {

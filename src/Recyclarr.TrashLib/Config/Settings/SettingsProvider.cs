@@ -1,8 +1,6 @@
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Config.Yaml;
-using Recyclarr.TrashLib.Startup;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Config.Settings;
+namespace Recyclarr.TrashLib;
 
 public class SettingsProvider : ISettingsProvider
 {

@@ -1,12 +1,10 @@
 using System.IO.Abstractions;
 using Recyclarr.Cli.TestLibrary;
-using Recyclarr.Common.Extensions;
+using Recyclarr.Common;
 using Recyclarr.Common.TestLibrary;
 using Recyclarr.TestLibrary;
-using Recyclarr.TrashLib.Config;
-using Recyclarr.TrashLib.Config.Services;
 
-namespace Recyclarr.TrashLib.Tests.Config.Services;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

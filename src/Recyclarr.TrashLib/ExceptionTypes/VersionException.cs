@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace Recyclarr.TrashLib.ExceptionTypes;
+namespace Recyclarr.TrashLib;
 
 [Serializable]
 public class VersionException : Exception

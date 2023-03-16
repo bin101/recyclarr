@@ -1,4 +1,4 @@
-namespace Recyclarr.Cli.Console.Setup;
+namespace Recyclarr.Cli;
 
 public interface IBaseCommandSetupTask
 {

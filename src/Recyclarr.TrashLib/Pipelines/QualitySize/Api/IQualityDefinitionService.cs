@@ -1,6 +1,4 @@
-using Recyclarr.TrashLib.Config.Services;
-
-namespace Recyclarr.TrashLib.Pipelines.QualitySize.Api;
+namespace Recyclarr.TrashLib;
 
 public interface IQualityDefinitionService
 {

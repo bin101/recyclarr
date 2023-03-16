@@ -2,7 +2,7 @@ using System.Reflection;
 using Autofac;
 using AutoFixture.Kernel;
 
-namespace Recyclarr.TestLibrary.AutoFixture;
+namespace Recyclarr.TestLibrary;
 
 public class AutofacSpecimenBuilder : ISpecimenBuilder
 {

@@ -1,6 +1,4 @@
-using Recyclarr.TrashLib.Config.Services;
-
-namespace Recyclarr.TrashLib.Pipelines.QualityProfile.Api;
+namespace Recyclarr.TrashLib;
 
 public interface IQualityProfileService
 {

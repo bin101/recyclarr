@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace Recyclarr.TrashLib.Pipelines.QualitySize.Api;
+namespace Recyclarr.TrashLib;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class ServiceQualityItem

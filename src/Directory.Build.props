@@ -12,6 +12,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <CompilerVisibleProperty Include="RootNamespace" />
+    <CompilerVisibleProperty Include="ProjectDir" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Serilog" />
   </ItemGroup>
 

@@ -1,7 +1,6 @@
-using Recyclarr.TrashLib.Config;
 using Spectre.Console;
 
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.Guide;
+namespace Recyclarr.TrashLib;
 
 public class CustomFormatDataLister
 {

@@ -1,7 +1,4 @@
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Processors;
-
-namespace Recyclarr.TrashLib.Pipelines;
+namespace Recyclarr.TrashLib;
 
 public interface ISyncPipeline
 {

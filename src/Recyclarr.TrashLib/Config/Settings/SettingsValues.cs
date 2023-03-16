@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace Recyclarr.TrashLib.Config.Settings;
+namespace Recyclarr.TrashLib;
 
 public record TrashRepository
 {

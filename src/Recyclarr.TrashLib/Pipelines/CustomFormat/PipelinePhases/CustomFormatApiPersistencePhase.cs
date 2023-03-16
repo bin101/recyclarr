@@ -1,7 +1,4 @@
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Api;
-
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.PipelinePhases;
+namespace Recyclarr.TrashLib;
 
 public class CustomFormatApiPersistencePhase
 {

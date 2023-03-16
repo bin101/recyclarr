@@ -1,8 +1,4 @@
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Api;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Models;
-
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile.PipelinePhases;
+namespace Recyclarr.TrashLib;
 
 public class ReleaseProfileApiPersistencePhase
 {

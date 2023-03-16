@@ -1,7 +1,6 @@
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Pipelines.Tags.Api;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Pipelines.Tags;
+namespace Recyclarr.TrashLib;
 
 public class ServiceTagCache : IPipelineCache
 {

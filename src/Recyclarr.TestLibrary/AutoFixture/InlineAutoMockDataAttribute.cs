@@ -1,6 +1,6 @@
 using System.Diagnostics.CodeAnalysis;
 
-namespace Recyclarr.TestLibrary.AutoFixture;
+namespace Recyclarr.TestLibrary;
 
 public sealed class InlineAutoMockDataAttribute : InlineAutoDataAttribute
 {

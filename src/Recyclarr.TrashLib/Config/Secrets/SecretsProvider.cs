@@ -1,8 +1,7 @@
 using System.Collections.Immutable;
-using Recyclarr.TrashLib.Startup;
 using YamlDotNet.Serialization;
 
-namespace Recyclarr.TrashLib.Config.Secrets;
+namespace Recyclarr.TrashLib;
 
 public class SecretsProvider : ISecretsProvider
 {

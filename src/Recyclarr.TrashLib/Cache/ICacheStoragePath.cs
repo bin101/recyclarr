@@ -1,7 +1,6 @@
 using System.IO.Abstractions;
-using Recyclarr.TrashLib.Config.Services;
 
-namespace Recyclarr.TrashLib.Cache;
+namespace Recyclarr.TrashLib;
 
 public interface ICacheStoragePath
 {

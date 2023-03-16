@@ -1,9 +1,7 @@
 using FluentValidation;
 using JetBrains.Annotations;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Http;
 
-namespace Recyclarr.TrashLib.Config.Parsing;
+namespace Recyclarr.TrashLib;
 
 [UsedImplicitly]
 public class ConfigValidationExecutor

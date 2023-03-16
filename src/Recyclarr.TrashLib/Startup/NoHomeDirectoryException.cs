@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Startup;
+namespace Recyclarr.TrashLib;
 
 public class NoHomeDirectoryException : Exception
 {

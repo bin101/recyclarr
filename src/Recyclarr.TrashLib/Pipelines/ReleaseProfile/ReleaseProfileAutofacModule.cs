@@ -1,12 +1,8 @@
 using Autofac;
 using Autofac.Extras.AggregateService;
 using Autofac.Extras.Ordering;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Api;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Filters;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Guide;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.PipelinePhases;
 
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile;
+namespace Recyclarr.TrashLib;
 
 public class ReleaseProfileAutofacModule : Module
 {

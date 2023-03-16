@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.Cache;
+namespace Recyclarr.TrashLib;
 
 public class CacheException : Exception
 {

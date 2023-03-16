@@ -1,7 +1,7 @@
 using FluentValidation;
 using JetBrains.Annotations;
 
-namespace Recyclarr.TrashLib.Config.Services.Radarr;
+namespace Recyclarr.TrashLib;
 
 [UsedImplicitly]
 internal class RadarrConfigurationValidator : AbstractValidator<RadarrConfiguration>

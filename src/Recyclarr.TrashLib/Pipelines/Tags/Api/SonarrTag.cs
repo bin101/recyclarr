@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Pipelines.Tags.Api;
+namespace Recyclarr.TrashLib;
 
 public class SonarrTag
 {

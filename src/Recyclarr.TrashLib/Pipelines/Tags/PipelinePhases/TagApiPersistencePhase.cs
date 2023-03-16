@@ -1,7 +1,4 @@
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Pipelines.Tags.Api;
-
-namespace Recyclarr.TrashLib.Pipelines.Tags.PipelinePhases;
+namespace Recyclarr.TrashLib;
 
 public class TagApiPersistencePhase
 {

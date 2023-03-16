@@ -1,7 +1,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile;
+namespace Recyclarr.TrashLib;
 
 internal class TermDataConverter : JsonConverter
 {

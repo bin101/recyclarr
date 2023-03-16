@@ -1,6 +1,6 @@
 using Spectre.Console.Cli;
 
-namespace Recyclarr.Cli.Console;
+namespace Recyclarr.Cli;
 
 public static class CommandConfiguratorExtensions
 {

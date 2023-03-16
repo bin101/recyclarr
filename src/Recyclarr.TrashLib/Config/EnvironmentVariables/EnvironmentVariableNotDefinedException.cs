@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Config.EnvironmentVariables;
+namespace Recyclarr.TrashLib;
 
 public class EnvironmentVariableNotDefinedException : Exception
 {

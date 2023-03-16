@@ -1,7 +1,6 @@
 using Flurl.Http;
-using Recyclarr.TrashLib.Config.Services;
 
-namespace Recyclarr.TrashLib.Http;
+namespace Recyclarr.TrashLib;
 
 public class ServiceRequestBuilder : IServiceRequestBuilder
 {

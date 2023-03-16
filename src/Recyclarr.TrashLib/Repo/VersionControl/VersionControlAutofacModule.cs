@@ -1,6 +1,6 @@
 using Autofac;
 
-namespace Recyclarr.TrashLib.Repo.VersionControl;
+namespace Recyclarr.TrashLib;
 
 public class VersionControlAutofacModule : Module
 {

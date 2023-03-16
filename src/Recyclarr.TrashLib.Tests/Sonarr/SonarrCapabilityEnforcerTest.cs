@@ -1,9 +1,6 @@
-using Recyclarr.TrashLib.Compatibility.Sonarr;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Config.Services.Sonarr;
-using Recyclarr.TrashLib.ExceptionTypes;
+using Recyclarr.TestLibrary;
 
-namespace Recyclarr.TrashLib.Tests.Sonarr;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

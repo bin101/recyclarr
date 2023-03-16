@@ -2,7 +2,7 @@ using System.IO.Abstractions;
 using System.Text.RegularExpressions;
 using Spectre.Console;
 
-namespace Recyclarr.Common.Extensions;
+namespace Recyclarr.Common;
 
 public static class FileSystemExtensions
 {

@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using Newtonsoft.Json;
 
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile;
+namespace Recyclarr.TrashLib;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public record TermData

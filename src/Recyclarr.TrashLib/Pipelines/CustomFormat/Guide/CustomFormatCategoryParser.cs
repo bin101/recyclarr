@@ -1,8 +1,8 @@
 using System.IO.Abstractions;
 using System.Text.RegularExpressions;
-using Recyclarr.Common.Extensions;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.Guide;
+namespace Recyclarr.TrashLib;
 
 public class CustomFormatCategoryParser : ICustomFormatCategoryParser
 {

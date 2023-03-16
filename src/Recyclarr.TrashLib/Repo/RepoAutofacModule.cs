@@ -1,6 +1,6 @@
 using Autofac;
 
-namespace Recyclarr.TrashLib.Repo;
+namespace Recyclarr.TrashLib;
 
 public class RepoAutofacModule : Module
 {

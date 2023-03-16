@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Config.Listers;
+namespace Recyclarr.TrashLib;
 
 public enum ConfigListCategory
 {

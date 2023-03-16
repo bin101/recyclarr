@@ -1,7 +1,7 @@
 using System.Globalization;
 using System.Text;
 
-namespace Recyclarr.TrashLib.Pipelines.QualitySize.Guide;
+namespace Recyclarr.TrashLib;
 
 public class QualityItem
 {

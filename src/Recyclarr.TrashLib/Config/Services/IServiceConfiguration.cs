@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Config.Services;
+namespace Recyclarr.TrashLib;
 
 public interface IServiceConfiguration
 {

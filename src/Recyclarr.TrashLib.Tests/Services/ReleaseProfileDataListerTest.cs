@@ -1,8 +1,7 @@
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Guide;
+using Recyclarr.TestLibrary;
 using Spectre.Console.Testing;
 
-namespace Recyclarr.TrashLib.Tests.Services;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

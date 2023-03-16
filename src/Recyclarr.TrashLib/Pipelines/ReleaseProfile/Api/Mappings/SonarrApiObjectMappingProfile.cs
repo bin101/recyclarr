@@ -1,8 +1,7 @@
 using AutoMapper;
 using JetBrains.Annotations;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Api.Objects;
 
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile.Api.Mappings;
+namespace Recyclarr.TrashLib;
 
 [UsedImplicitly]
 public class SonarrApiObjectMappingProfile : Profile

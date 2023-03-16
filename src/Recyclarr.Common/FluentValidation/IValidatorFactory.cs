@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace Recyclarr.Common.FluentValidation;
+namespace Recyclarr.Common;
 
 public interface IValidatorFactory
 {

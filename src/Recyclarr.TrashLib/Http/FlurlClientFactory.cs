@@ -1,10 +1,8 @@
 using Flurl.Http;
 using Flurl.Http.Configuration;
-using Recyclarr.Common.Networking;
-using Recyclarr.TrashLib.Config.Settings;
-using Recyclarr.TrashLib.Json;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Http;
+namespace Recyclarr.TrashLib;
 
 public class FlurlClientFactory : IFlurlClientFactory
 {

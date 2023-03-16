@@ -1,15 +1,11 @@
 using System.IO.Abstractions;
 using JetBrains.Annotations;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Config.Services.Radarr;
-using Recyclarr.TrashLib.Config.Services.Sonarr;
-using Recyclarr.TrashLib.Config.Yaml;
 using Serilog.Context;
 using YamlDotNet.Core;
 using YamlDotNet.Core.Events;
 using YamlDotNet.Serialization;
 
-namespace Recyclarr.TrashLib.Config.Parsing;
+namespace Recyclarr.TrashLib;
 
 [UsedImplicitly]
 public class ConfigParser

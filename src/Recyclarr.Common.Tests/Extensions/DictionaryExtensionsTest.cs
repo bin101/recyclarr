@@ -1,6 +1,4 @@
-using Recyclarr.Common.Extensions;
-
-namespace Recyclarr.Common.Tests.Extensions;
+namespace Recyclarr.Common.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

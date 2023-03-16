@@ -1,7 +1,6 @@
 using System.IO.Abstractions;
-using Recyclarr.TrashLib.Config;
 
-namespace Recyclarr.TrashLib.Processors;
+namespace Recyclarr.TrashLib;
 
 public interface ISyncSettings
 {

@@ -1,6 +1,4 @@
-using Recyclarr.TrashLib.Cache;
-
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
+namespace Recyclarr.TrashLib;
 
 [CacheObjectName("custom-format-cache")]
 public record CustomFormatCache

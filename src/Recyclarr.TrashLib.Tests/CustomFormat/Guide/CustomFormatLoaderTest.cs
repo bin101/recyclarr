@@ -2,10 +2,9 @@ using System.IO.Abstractions;
 using System.IO.Abstractions.Extensions;
 using Newtonsoft.Json.Linq;
 using Recyclarr.Cli.TestLibrary;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Guide;
 using Recyclarr.TrashLib.TestLibrary;
 
-namespace Recyclarr.TrashLib.Tests.CustomFormat.Guide;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

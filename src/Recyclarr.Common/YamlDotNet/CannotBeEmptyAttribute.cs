@@ -1,7 +1,7 @@
 using System.Collections;
 using System.ComponentModel.DataAnnotations;
 
-namespace Recyclarr.Common.YamlDotNet;
+namespace Recyclarr.Common;
 
 [AttributeUsage(AttributeTargets.Property)]
 // ReSharper disable once UnusedType.Global

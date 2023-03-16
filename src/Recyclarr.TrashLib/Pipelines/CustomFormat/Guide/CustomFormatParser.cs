@@ -1,7 +1,6 @@
 using Newtonsoft.Json;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
 
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.Guide;
+namespace Recyclarr.TrashLib;
 
 public class CustomFormatParser : ICustomFormatParser
 {

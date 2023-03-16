@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Config.Parsing;
+namespace Recyclarr.TrashLib;
 
 public class NoConfigurationFilesException : Exception
 {

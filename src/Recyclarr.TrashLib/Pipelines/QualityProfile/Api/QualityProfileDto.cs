@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Recyclarr.TrashLib.Pipelines.QualityProfile.Api;
+namespace Recyclarr.TrashLib;
 
 [UsedImplicitly]
 public record QualityProfileDto

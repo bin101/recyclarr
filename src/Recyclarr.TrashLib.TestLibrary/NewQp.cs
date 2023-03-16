@@ -1,6 +1,3 @@
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Pipelines.QualityProfile.PipelinePhases;
-
 namespace Recyclarr.TrashLib.TestLibrary;
 
 public static class NewQp

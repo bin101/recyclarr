@@ -1,8 +1,8 @@
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Guide;
+using Recyclarr.TestLibrary;
 using Recyclarr.TrashLib.TestLibrary;
 using Spectre.Console.Testing;
 
-namespace Recyclarr.TrashLib.Tests.CustomFormat;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

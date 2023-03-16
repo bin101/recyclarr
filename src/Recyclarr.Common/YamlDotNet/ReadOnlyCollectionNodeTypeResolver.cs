@@ -1,7 +1,7 @@
 using YamlDotNet.Core.Events;
 using YamlDotNet.Serialization;
 
-namespace Recyclarr.Common.YamlDotNet;
+namespace Recyclarr.Common;
 
 // from: https://github.com/aaubry/YamlDotNet/issues/236#issuecomment-632054372
 public sealed class ReadOnlyCollectionNodeTypeResolver : INodeTypeResolver

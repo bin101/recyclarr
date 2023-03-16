@@ -1,9 +1,8 @@
 using System.IO.Abstractions;
 using System.Text.RegularExpressions;
-using Recyclarr.Common.Extensions;
 using Recyclarr.TestLibrary;
 
-namespace Recyclarr.Common.Tests.Extensions;
+namespace Recyclarr.Common.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

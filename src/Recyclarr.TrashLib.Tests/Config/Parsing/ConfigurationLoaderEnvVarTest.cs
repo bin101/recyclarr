@@ -1,11 +1,9 @@
 using Recyclarr.Cli.TestLibrary;
 using Recyclarr.Common;
-using Recyclarr.TrashLib.Config.EnvironmentVariables;
-using Recyclarr.TrashLib.Config.Parsing;
 using Recyclarr.TrashLib.TestLibrary;
 using YamlDotNet.Core;
 
-namespace Recyclarr.TrashLib.Tests.Config.Parsing;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

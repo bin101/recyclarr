@@ -3,7 +3,7 @@ using System.Reflection;
 using Autofac;
 using AutoFixture;
 
-namespace Recyclarr.TestLibrary.AutoFixture;
+namespace Recyclarr.TestLibrary;
 
 [SuppressMessage("Design", "CA1019", MessageId = "Define accessors for attribute arguments")]
 public sealed class AutoMockDataAttribute : AutoDataAttribute

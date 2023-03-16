@@ -1,6 +1,6 @@
-using Recyclarr.TrashLib.Startup;
+using Recyclarr.TrashLib;
 
-namespace Recyclarr.Cli.Console.Setup;
+namespace Recyclarr.Cli;
 
 public class AppPathSetupTask : IBaseCommandSetupTask
 {

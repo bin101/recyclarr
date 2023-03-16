@@ -1,9 +1,8 @@
 using FluentValidation;
 using JetBrains.Annotations;
-using Recyclarr.Common.Extensions;
-using Recyclarr.Common.FluentValidation;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Config.Services.Sonarr;
+namespace Recyclarr.TrashLib;
 
 [UsedImplicitly]
 public class SonarrConfigurationValidator : AbstractValidator<SonarrConfiguration>

@@ -1,11 +1,7 @@
 using Autofac;
 using Autofac.Extras.AggregateService;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Api;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Cache;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Guide;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.PipelinePhases;
 
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat;
+namespace Recyclarr.TrashLib;
 
 public class CustomFormatAutofacModule : Module
 {

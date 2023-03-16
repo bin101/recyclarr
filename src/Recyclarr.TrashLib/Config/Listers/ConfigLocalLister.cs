@@ -1,10 +1,8 @@
 using System.IO.Abstractions;
-using Recyclarr.TrashLib.Config.Parsing;
-using Recyclarr.TrashLib.Startup;
 using Spectre.Console;
 using Spectre.Console.Rendering;
 
-namespace Recyclarr.TrashLib.Config.Listers;
+namespace Recyclarr.TrashLib;
 
 public class ConfigLocalLister : IConfigLister
 {

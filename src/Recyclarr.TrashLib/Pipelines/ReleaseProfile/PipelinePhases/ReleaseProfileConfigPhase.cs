@@ -1,9 +1,6 @@
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Config.Services.Sonarr;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Filters;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Guide;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile.PipelinePhases;
+namespace Recyclarr.TrashLib;
 
 public record ProcessedReleaseProfileData(
     ReleaseProfileData Profile,

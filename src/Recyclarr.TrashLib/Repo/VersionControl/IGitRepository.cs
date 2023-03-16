@@ -1,6 +1,6 @@
 using System.IO.Abstractions;
 
-namespace Recyclarr.TrashLib.Repo.VersionControl;
+namespace Recyclarr.TrashLib;
 
 public interface IGitRepository : IDisposable
 {

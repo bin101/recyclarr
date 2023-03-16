@@ -1,6 +1,4 @@
-using Recyclarr.TrashLib.Config.Services;
-
-namespace Recyclarr.TrashLib.ApiServices.System;
+namespace Recyclarr.TrashLib;
 
 public interface IServiceInformation
 {

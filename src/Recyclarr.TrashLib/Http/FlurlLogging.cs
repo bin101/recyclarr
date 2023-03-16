@@ -2,7 +2,7 @@ using Flurl;
 using Flurl.Http.Configuration;
 using Newtonsoft.Json;
 
-namespace Recyclarr.TrashLib.Http;
+namespace Recyclarr.TrashLib;
 
 public static class FlurlLogging
 {

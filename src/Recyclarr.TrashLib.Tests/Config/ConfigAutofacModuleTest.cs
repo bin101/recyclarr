@@ -1,8 +1,7 @@
 using Autofac.Features.Indexed;
 using Recyclarr.Cli.TestLibrary;
-using Recyclarr.TrashLib.Config.Listers;
 
-namespace Recyclarr.TrashLib.Tests.Config;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

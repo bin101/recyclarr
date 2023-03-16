@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile;
+namespace Recyclarr.TrashLib;
 
 public class ScopedState<T>
 {

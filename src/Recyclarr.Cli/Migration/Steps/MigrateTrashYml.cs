@@ -2,7 +2,7 @@ using System.IO.Abstractions;
 using JetBrains.Annotations;
 using Spectre.Console;
 
-namespace Recyclarr.Cli.Migration.Steps;
+namespace Recyclarr.Cli;
 
 /// <remarks>
 ///     Implemented on 4/30/2022.

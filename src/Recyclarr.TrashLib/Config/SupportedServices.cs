@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Config;
+namespace Recyclarr.TrashLib;
 
 public enum SupportedServices
 {

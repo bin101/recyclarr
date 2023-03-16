@@ -1,6 +1,6 @@
 using Autofac;
 
-namespace Recyclarr.Common.Extensions;
+namespace Recyclarr.Common;
 
 public static class AutofacExtensions
 {

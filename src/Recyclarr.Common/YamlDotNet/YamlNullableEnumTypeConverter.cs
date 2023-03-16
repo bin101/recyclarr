@@ -2,7 +2,7 @@ using YamlDotNet.Core;
 using YamlDotNet.Core.Events;
 using YamlDotNet.Serialization;
 
-namespace Recyclarr.Common.YamlDotNet;
+namespace Recyclarr.Common;
 
 // A workaround for nullable enums in YamlDotNet taken from:
 // https://github.com/aaubry/YamlDotNet/issues/544#issuecomment-778062351

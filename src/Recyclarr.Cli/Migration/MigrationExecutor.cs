@@ -1,6 +1,6 @@
 using Spectre.Console;
 
-namespace Recyclarr.Cli.Migration;
+namespace Recyclarr.Cli;
 
 public class MigrationExecutor : IMigrationExecutor
 {

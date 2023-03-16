@@ -1,6 +1,4 @@
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
-
-namespace Recyclarr.TrashLib.Tests.Pipelines.CustomFormat.Models;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

@@ -1,8 +1,6 @@
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Processors;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Config.Parsing;
+namespace Recyclarr.TrashLib;
 
 public class ConfigRegistry : IConfigRegistry
 {

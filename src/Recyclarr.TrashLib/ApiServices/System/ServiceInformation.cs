@@ -1,8 +1,6 @@
 using Flurl.Http;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Http;
 
-namespace Recyclarr.TrashLib.ApiServices.System;
+namespace Recyclarr.TrashLib;
 
 public class ServiceInformation : IServiceInformation
 {

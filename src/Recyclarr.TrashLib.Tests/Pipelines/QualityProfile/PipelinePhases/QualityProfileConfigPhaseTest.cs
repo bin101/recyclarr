@@ -1,9 +1,7 @@
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Cache;
-using Recyclarr.TrashLib.Pipelines.QualityProfile.PipelinePhases;
+using Recyclarr.TestLibrary;
 using Recyclarr.TrashLib.TestLibrary;
 
-namespace Recyclarr.TrashLib.Tests.Pipelines.QualityProfile.PipelinePhases;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

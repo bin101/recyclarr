@@ -1,7 +1,7 @@
 using System.Reactive.Disposables;
 using System.Reactive.Linq;
 
-namespace Recyclarr.Common.Extensions;
+namespace Recyclarr.Common;
 
 public static class RxExtensions
 {

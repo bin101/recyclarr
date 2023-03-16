@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using YamlDotNet.Core;
 using YamlDotNet.Serialization;
 
-namespace Recyclarr.Common.YamlDotNet;
+namespace Recyclarr.Common;
 
 internal class ValidatingDeserializer : INodeDeserializer
 {

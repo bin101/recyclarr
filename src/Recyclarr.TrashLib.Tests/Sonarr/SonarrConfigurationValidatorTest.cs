@@ -1,9 +1,7 @@
 using FluentValidation.TestHelper;
 using Recyclarr.Cli.TestLibrary;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Config.Services.Sonarr;
 
-namespace Recyclarr.TrashLib.Tests.Sonarr;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

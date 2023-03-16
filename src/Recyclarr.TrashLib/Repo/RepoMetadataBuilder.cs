@@ -1,7 +1,6 @@
 using System.IO.Abstractions;
-using Recyclarr.TrashLib.Startup;
 
-namespace Recyclarr.TrashLib.Repo;
+namespace Recyclarr.TrashLib;
 
 public class RepoMetadataBuilder : IRepoMetadataBuilder
 {

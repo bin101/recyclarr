@@ -1,6 +1,4 @@
-using Recyclarr.TrashLib.Config;
-
-namespace Recyclarr.TrashLib.Pipelines.QualitySize.Guide;
+namespace Recyclarr.TrashLib;
 
 public interface IQualityGuideService
 {

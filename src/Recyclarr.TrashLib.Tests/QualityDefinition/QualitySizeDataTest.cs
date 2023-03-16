@@ -1,6 +1,4 @@
-using Recyclarr.TrashLib.Pipelines.QualitySize;
-
-namespace Recyclarr.TrashLib.Tests.QualityDefinition;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

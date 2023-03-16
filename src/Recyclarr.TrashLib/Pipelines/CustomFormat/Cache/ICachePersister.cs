@@ -1,7 +1,4 @@
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
-
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.Cache;
+namespace Recyclarr.TrashLib;
 
 public interface ICachePersister
 {

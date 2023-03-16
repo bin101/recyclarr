@@ -1,9 +1,6 @@
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Pipelines.Tags;
-using Recyclarr.TrashLib.Pipelines.Tags.Api;
-using Recyclarr.TrashLib.Pipelines.Tags.PipelinePhases;
+using Recyclarr.TestLibrary;
 
-namespace Recyclarr.TrashLib.Tests.Pipelines.Tags.PipelinePhases;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

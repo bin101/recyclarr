@@ -2,7 +2,7 @@ using System.IO.Abstractions;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace Recyclarr.TrashLib.Repo;
+namespace Recyclarr.TrashLib;
 
 public static class TrashRepoJsonParser
 {

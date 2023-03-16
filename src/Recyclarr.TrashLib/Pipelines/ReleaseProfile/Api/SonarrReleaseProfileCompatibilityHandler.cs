@@ -1,13 +1,8 @@
 using AutoMapper;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Schema;
-using Recyclarr.TrashLib.Compatibility.Sonarr;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.ExceptionTypes;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Api.Objects;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Api.Schemas;
 
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile.Api;
+namespace Recyclarr.TrashLib;
 
 public class SonarrReleaseProfileCompatibilityHandler : ISonarrReleaseProfileCompatibilityHandler
 {

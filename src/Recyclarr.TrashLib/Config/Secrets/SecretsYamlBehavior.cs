@@ -1,8 +1,7 @@
 using JetBrains.Annotations;
-using Recyclarr.TrashLib.Config.Yaml;
 using YamlDotNet.Serialization;
 
-namespace Recyclarr.TrashLib.Config.Secrets;
+namespace Recyclarr.TrashLib;
 
 [UsedImplicitly]
 public class SecretsYamlBehavior : IYamlBehavior

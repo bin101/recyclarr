@@ -1,9 +1,7 @@
 using System.Collections.ObjectModel;
-using Recyclarr.TrashLib.Cache;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
+using Recyclarr.TestLibrary;
 
-namespace Recyclarr.TrashLib.Tests.Cache;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

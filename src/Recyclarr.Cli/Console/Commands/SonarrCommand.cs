@@ -2,17 +2,10 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.IO.Abstractions;
 using JetBrains.Annotations;
-using Recyclarr.Cli.Console.Helpers;
-using Recyclarr.Cli.Migration;
-using Recyclarr.TrashLib.Config;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Guide;
-using Recyclarr.TrashLib.Pipelines.QualitySize.Guide;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Guide;
-using Recyclarr.TrashLib.Processors;
-using Recyclarr.TrashLib.Repo;
+using Recyclarr.TrashLib;
 using Spectre.Console.Cli;
 
-namespace Recyclarr.Cli.Console.Commands;
+namespace Recyclarr.Cli;
 
 [UsedImplicitly]
 [Description("OBSOLETE: Use `sync sonarr` instead")]

@@ -1,7 +1,6 @@
-using Recyclarr.Cli.Logging;
-using Recyclarr.TrashLib.Config.Settings;
+using Recyclarr.TrashLib;
 
-namespace Recyclarr.Cli.Console.Setup;
+namespace Recyclarr.Cli;
 
 public class JanitorCleanupTask : IBaseCommandSetupTask
 {

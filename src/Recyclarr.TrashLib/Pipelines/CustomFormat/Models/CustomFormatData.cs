@@ -1,9 +1,8 @@
 using System.Diagnostics.CodeAnalysis;
 using Newtonsoft.Json;
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Json;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
+namespace Recyclarr.TrashLib;
 
 public record CustomFormatFieldData
 {

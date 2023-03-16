@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Pipelines;
+namespace Recyclarr.TrashLib;
 
 /// <summary>
 ///     Defines a mechanism for state sharing between pipelines.

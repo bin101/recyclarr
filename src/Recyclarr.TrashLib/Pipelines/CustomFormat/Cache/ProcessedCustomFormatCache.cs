@@ -1,7 +1,6 @@
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.Cache;
+namespace Recyclarr.TrashLib;
 
 public class ProcessedCustomFormatCache : IPipelineCache
 {

@@ -1,6 +1,4 @@
-using Recyclarr.TrashLib.Config.Services;
-
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
+namespace Recyclarr.TrashLib;
 
 public class ProcessedConfigData
 {

@@ -1,7 +1,4 @@
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Pipelines.QualitySize.Api;
-
-namespace Recyclarr.TrashLib.Pipelines.QualitySize.PipelinePhases;
+namespace Recyclarr.TrashLib;
 
 public class QualitySizeApiPersistencePhase
 {

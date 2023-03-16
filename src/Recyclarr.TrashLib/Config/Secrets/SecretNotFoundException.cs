@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Config.Secrets;
+namespace Recyclarr.TrashLib;
 
 public class SecretNotFoundException : Exception
 {

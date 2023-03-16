@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile.Api.Schemas;
+namespace Recyclarr.TrashLib;
 
 public static class SonarrReleaseProfileSchema
 {

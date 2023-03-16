@@ -1,9 +1,6 @@
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Cache;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Pipelines.QualityProfile.PipelinePhases;
+namespace Recyclarr.TrashLib;
 
 public record ProcessedQualityProfileData(QualityProfileConfig Profile)
 {

@@ -2,11 +2,9 @@ using System.Diagnostics.CodeAnalysis;
 using Autofac;
 using FluentValidation;
 using Recyclarr.Cli.TestLibrary;
-using Recyclarr.TrashLib.Config.Parsing;
-using Recyclarr.TrashLib.Config.Services;
 using Recyclarr.TrashLib.TestLibrary;
 
-namespace Recyclarr.TrashLib.Tests.Config.Parsing;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

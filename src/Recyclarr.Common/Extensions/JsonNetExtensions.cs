@@ -1,7 +1,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Recyclarr.Common.Extensions;
+namespace Recyclarr.Common;
 
 public static class JsonNetExtensions
 {

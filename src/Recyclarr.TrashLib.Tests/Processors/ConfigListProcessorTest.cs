@@ -1,8 +1,6 @@
-using Recyclarr.TestLibrary.Autofac;
-using Recyclarr.TrashLib.Config.Listers;
-using Recyclarr.TrashLib.Processors;
+using Recyclarr.TestLibrary;
 
-namespace Recyclarr.TrashLib.Tests.Processors;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

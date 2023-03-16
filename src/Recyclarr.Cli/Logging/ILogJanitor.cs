@@ -1,4 +1,4 @@
-namespace Recyclarr.Cli.Logging;
+namespace Recyclarr.Cli;
 
 public interface ILogJanitor
 {

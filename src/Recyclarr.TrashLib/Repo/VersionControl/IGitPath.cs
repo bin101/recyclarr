@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Repo.VersionControl;
+namespace Recyclarr.TrashLib;
 
 public interface IGitPath
 {

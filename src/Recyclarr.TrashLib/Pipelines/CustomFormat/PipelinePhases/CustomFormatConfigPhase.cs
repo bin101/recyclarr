@@ -1,10 +1,6 @@
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Cache;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Guide;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.PipelinePhases;
+namespace Recyclarr.TrashLib;
 
 public class CustomFormatConfigPhase
 {

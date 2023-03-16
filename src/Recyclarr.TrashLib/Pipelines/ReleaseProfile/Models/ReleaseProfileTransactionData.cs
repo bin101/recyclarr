@@ -1,6 +1,4 @@
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Api.Objects;
-
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile.Models;
+namespace Recyclarr.TrashLib;
 
 public record ReleaseProfileTransactionData(
     IReadOnlyCollection<SonarrReleaseProfile> UpdatedProfiles,

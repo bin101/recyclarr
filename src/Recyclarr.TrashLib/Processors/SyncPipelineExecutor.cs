@@ -1,7 +1,4 @@
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Pipelines;
-
-namespace Recyclarr.TrashLib.Processors;
+namespace Recyclarr.TrashLib;
 
 public class SyncPipelineExecutor
 {

@@ -2,14 +2,10 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.IO.Abstractions;
 using JetBrains.Annotations;
-using Recyclarr.Cli.Console.Helpers;
-using Recyclarr.Cli.Migration;
-using Recyclarr.TrashLib.Config;
-using Recyclarr.TrashLib.Processors;
-using Recyclarr.TrashLib.Repo;
+using Recyclarr.TrashLib;
 using Spectre.Console.Cli;
 
-namespace Recyclarr.Cli.Console.Commands;
+namespace Recyclarr.Cli;
 
 [Description("Sync the guide to services")]
 [UsedImplicitly]

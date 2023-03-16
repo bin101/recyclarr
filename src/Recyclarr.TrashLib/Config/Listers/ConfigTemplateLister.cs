@@ -1,9 +1,7 @@
 using MoreLinq;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Repo;
 using Spectre.Console;
 
-namespace Recyclarr.TrashLib.Config.Listers;
+namespace Recyclarr.TrashLib;
 
 public class ConfigTemplateLister : IConfigLister
 {

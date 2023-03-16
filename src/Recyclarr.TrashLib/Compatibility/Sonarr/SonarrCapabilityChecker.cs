@@ -1,6 +1,4 @@
-using Recyclarr.TrashLib.ApiServices.System;
-
-namespace Recyclarr.TrashLib.Compatibility.Sonarr;
+namespace Recyclarr.TrashLib;
 
 public class SonarrCapabilityChecker : ServiceCapabilityChecker<SonarrCapabilities>, ISonarrCapabilityChecker
 {

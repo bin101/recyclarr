@@ -3,9 +3,8 @@ using System.IO.Abstractions;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using Recyclarr.Common;
-using Recyclarr.Common.Extensions;
 
-namespace Recyclarr.TrashLib.Pipelines.QualitySize.Guide;
+namespace Recyclarr.TrashLib;
 
 public class QualitySizeGuideParser
 {

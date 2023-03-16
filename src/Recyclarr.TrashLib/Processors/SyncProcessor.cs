@@ -1,13 +1,8 @@
 using System.Diagnostics.CodeAnalysis;
 using Flurl.Http;
-using Recyclarr.TrashLib.Config;
-using Recyclarr.TrashLib.Config.Parsing;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Http;
-using Recyclarr.TrashLib.Repo.VersionControl;
 using Spectre.Console;
 
-namespace Recyclarr.TrashLib.Processors;
+namespace Recyclarr.TrashLib;
 
 [SuppressMessage("Design", "CA1031:Do not catch general exception types")]
 public class SyncProcessor : ISyncProcessor

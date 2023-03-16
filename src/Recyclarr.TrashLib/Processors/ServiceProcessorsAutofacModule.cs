@@ -1,6 +1,6 @@
 using Autofac;
 
-namespace Recyclarr.TrashLib.Processors;
+namespace Recyclarr.TrashLib;
 
 public class ServiceProcessorsAutofacModule : Module
 {

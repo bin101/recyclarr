@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Pipelines.QualityProfile;
+namespace Recyclarr.TrashLib;
 
 public enum FormatScoreUpdateReason
 {

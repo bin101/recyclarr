@@ -1,13 +1,12 @@
 using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using JetBrains.Annotations;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Guide;
-using Recyclarr.TrashLib.Repo;
+using Recyclarr.TrashLib;
 using Spectre.Console.Cli;
 
 #pragma warning disable CS8765
 
-namespace Recyclarr.Cli.Console.Commands;
+namespace Recyclarr.Cli;
 
 [UsedImplicitly]
 [Description("List Sonarr release profiles in the guide for a particular service.")]

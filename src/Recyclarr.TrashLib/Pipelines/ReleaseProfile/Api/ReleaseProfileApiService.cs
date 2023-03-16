@@ -1,10 +1,7 @@
 using Flurl.Http;
 using Newtonsoft.Json.Linq;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Http;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Api.Objects;
 
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile.Api;
+namespace Recyclarr.TrashLib;
 
 public class ReleaseProfileApiService : IReleaseProfileApiService
 {

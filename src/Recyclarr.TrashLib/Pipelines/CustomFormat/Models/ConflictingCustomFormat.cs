@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
+namespace Recyclarr.TrashLib;
 
 public record ConflictingCustomFormat(
     CustomFormatData GuideCf,

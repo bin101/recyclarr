@@ -1,11 +1,10 @@
 using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using JetBrains.Annotations;
-using Recyclarr.TrashLib.ExceptionTypes;
-using Recyclarr.TrashLib.Processors;
+using Recyclarr.TrashLib;
 using Spectre.Console.Cli;
 
-namespace Recyclarr.Cli.Console.Commands;
+namespace Recyclarr.Cli;
 
 [UsedImplicitly]
 [Description("Create a starter configuration file.")]

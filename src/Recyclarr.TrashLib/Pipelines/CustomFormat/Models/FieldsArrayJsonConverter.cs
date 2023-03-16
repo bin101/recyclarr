@@ -1,7 +1,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
+namespace Recyclarr.TrashLib;
 
 public class FieldsArrayJsonConverter : JsonConverter
 {

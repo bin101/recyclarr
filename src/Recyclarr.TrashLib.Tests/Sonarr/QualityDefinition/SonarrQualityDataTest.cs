@@ -1,10 +1,8 @@
-using Recyclarr.TrashLib.Pipelines.QualitySize.Guide;
-
-namespace Recyclarr.TrashLib.Tests.Sonarr.QualityDefinition;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]
-public class QualitySizeDataTest
+public class SonarrQualityDataTest
 {
     private static readonly object[] MaxTestValues =
     {

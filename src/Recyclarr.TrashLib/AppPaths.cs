@@ -1,6 +1,5 @@
 using System.IO.Abstractions;
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Startup;
+using Recyclarr.Common;
 
 namespace Recyclarr.TrashLib;
 

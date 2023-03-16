@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile;
+namespace Recyclarr.TrashLib;
 
 internal class TermDataValidator : AbstractValidator<TermData>
 {

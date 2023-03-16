@@ -1,6 +1,6 @@
 using Flurl.Http.Configuration;
 
-namespace Recyclarr.Common.Networking;
+namespace Recyclarr.Common;
 
 public class UntrustedCertClientFactory : DefaultHttpClientFactory
 {

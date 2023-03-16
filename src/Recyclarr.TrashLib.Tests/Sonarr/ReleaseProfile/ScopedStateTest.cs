@@ -1,6 +1,4 @@
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile;
-
-namespace Recyclarr.TrashLib.Tests.Sonarr.ReleaseProfile;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

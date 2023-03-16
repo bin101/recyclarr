@@ -1,8 +1,4 @@
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Api;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
-
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.PipelinePhases;
+namespace Recyclarr.TrashLib;
 
 public class CustomFormatApiFetchPhase
 {

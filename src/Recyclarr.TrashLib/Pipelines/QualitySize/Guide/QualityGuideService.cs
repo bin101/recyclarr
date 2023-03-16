@@ -1,7 +1,4 @@
-using Recyclarr.TrashLib.Config;
-using Recyclarr.TrashLib.Repo;
-
-namespace Recyclarr.TrashLib.Pipelines.QualitySize.Guide;
+namespace Recyclarr.TrashLib;
 
 public class QualityGuideService : IQualityGuideService
 {

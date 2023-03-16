@@ -1,8 +1,7 @@
 using System.IO.Abstractions;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Guide;
-using Recyclarr.TrashLib.Startup;
+using Recyclarr.TestLibrary;
 
-namespace Recyclarr.TrashLib.Tests.CustomFormat.Guide;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

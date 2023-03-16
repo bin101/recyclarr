@@ -1,8 +1,8 @@
 using System.Text;
-using Recyclarr.Common.Extensions;
+using Recyclarr.Common;
 using Spectre.Console;
 
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile.Guide;
+namespace Recyclarr.TrashLib;
 
 public class ReleaseProfileDataLister
 {

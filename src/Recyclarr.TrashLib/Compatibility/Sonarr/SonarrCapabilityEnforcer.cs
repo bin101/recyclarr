@@ -1,8 +1,6 @@
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Config.Services.Sonarr;
-using Recyclarr.TrashLib.ExceptionTypes;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Compatibility.Sonarr;
+namespace Recyclarr.TrashLib;
 
 public class SonarrCapabilityEnforcer
 {

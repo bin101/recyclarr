@@ -1,9 +1,6 @@
 using System.IO.Abstractions;
-using Recyclarr.TrashLib.Config;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
-using Recyclarr.TrashLib.Repo;
 
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.Guide;
+namespace Recyclarr.TrashLib;
 
 public class CustomFormatGuideService : ICustomFormatGuideService
 {

@@ -1,7 +1,4 @@
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Api.Objects;
-
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile.Api;
+namespace Recyclarr.TrashLib;
 
 public interface IReleaseProfileApiService
 {

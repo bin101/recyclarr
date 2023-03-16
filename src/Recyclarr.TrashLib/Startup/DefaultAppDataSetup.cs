@@ -1,7 +1,7 @@
 using System.IO.Abstractions;
 using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Startup;
+namespace Recyclarr.TrashLib;
 
 public class DefaultAppDataSetup
 {

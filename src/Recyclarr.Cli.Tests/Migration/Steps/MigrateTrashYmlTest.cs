@@ -1,8 +1,7 @@
 using System.Text.RegularExpressions;
-using Recyclarr.Cli.Migration.Steps;
-using Recyclarr.TestLibrary.AutoFixture;
+using Recyclarr.TestLibrary;
 
-namespace Recyclarr.Cli.Tests.Migration.Steps;
+namespace Recyclarr.Cli.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

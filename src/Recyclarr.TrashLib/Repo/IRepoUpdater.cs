@@ -1,6 +1,6 @@
 using System.IO.Abstractions;
 
-namespace Recyclarr.TrashLib.Repo;
+namespace Recyclarr.TrashLib;
 
 public interface IRepoUpdater
 {

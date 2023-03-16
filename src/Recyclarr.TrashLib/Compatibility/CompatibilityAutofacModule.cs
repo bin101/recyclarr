@@ -1,8 +1,6 @@
 using Autofac;
-using Recyclarr.TrashLib.Compatibility.Radarr;
-using Recyclarr.TrashLib.Compatibility.Sonarr;
 
-namespace Recyclarr.TrashLib.Compatibility;
+namespace Recyclarr.TrashLib;
 
 public class CompatibilityAutofacModule : Module
 {

@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Compatibility.Sonarr;
+namespace Recyclarr.TrashLib;
 
 public record SonarrCapabilities(Version Version)
 {

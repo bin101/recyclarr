@@ -1,9 +1,9 @@
 using System.IO.Abstractions;
 using System.IO.Abstractions.Extensions;
 using Recyclarr.Common;
-using Recyclarr.TrashLib.Startup;
+using Recyclarr.TestLibrary;
 
-namespace Recyclarr.TrashLib.Tests.Startup;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

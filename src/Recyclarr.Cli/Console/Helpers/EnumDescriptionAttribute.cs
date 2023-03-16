@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.Text;
 
-namespace Recyclarr.Cli.Console.Helpers;
+namespace Recyclarr.Cli;
 
 [AttributeUsage(AttributeTargets.Property)]
 public sealed class EnumDescriptionAttribute<TEnum> : DescriptionAttribute

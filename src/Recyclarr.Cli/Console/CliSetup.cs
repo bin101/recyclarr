@@ -1,7 +1,6 @@
-using Recyclarr.Cli.Console.Commands;
 using Spectre.Console.Cli;
 
-namespace Recyclarr.Cli.Console;
+namespace Recyclarr.Cli;
 
 public static class CliSetup
 {

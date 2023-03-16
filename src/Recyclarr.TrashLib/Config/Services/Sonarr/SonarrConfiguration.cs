@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace Recyclarr.TrashLib.Config.Services.Sonarr;
+namespace Recyclarr.TrashLib;
 
 public class SonarrConfiguration : ServiceConfiguration
 {

@@ -2,13 +2,12 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Text;
 using JetBrains.Annotations;
-using Recyclarr.Cli.Migration;
 using Spectre.Console;
 using Spectre.Console.Cli;
 
 #pragma warning disable CS8765
 
-namespace Recyclarr.Cli.Console.Commands;
+namespace Recyclarr.Cli;
 
 [UsedImplicitly]
 [Description("Perform migration steps that may be needed between versions")]

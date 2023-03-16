@@ -3,10 +3,9 @@ using System.Reflection;
 using System.Text.RegularExpressions;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Config.Services;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Cache;
+namespace Recyclarr.TrashLib;
 
 public class ServiceCache : IServiceCache
 {

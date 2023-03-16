@@ -1,8 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Pipelines.Tags.Api;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Pipelines.Tags.PipelinePhases;
+namespace Recyclarr.TrashLib;
 
 public class TagTransactionPhase
 {

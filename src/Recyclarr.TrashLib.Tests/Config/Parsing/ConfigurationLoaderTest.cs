@@ -5,14 +5,10 @@ using Autofac;
 using FluentValidation;
 using Recyclarr.Cli.TestLibrary;
 using Recyclarr.Common;
-using Recyclarr.Common.Extensions;
-using Recyclarr.TestLibrary.Autofac;
-using Recyclarr.TrashLib.Config.Parsing;
-using Recyclarr.TrashLib.Config.Services.Sonarr;
-using Recyclarr.TrashLib.Config.Yaml;
+using Recyclarr.TestLibrary;
 using Recyclarr.TrashLib.TestLibrary;
 
-namespace Recyclarr.TrashLib.Tests.Config.Parsing;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

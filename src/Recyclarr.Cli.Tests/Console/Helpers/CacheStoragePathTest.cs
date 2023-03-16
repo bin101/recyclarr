@@ -1,8 +1,7 @@
-using Recyclarr.Cli.Console.Helpers;
-using Recyclarr.TestLibrary.AutoFixture;
-using Recyclarr.TrashLib.Config.Services;
+using Recyclarr.TestLibrary;
+using Recyclarr.TrashLib;
 
-namespace Recyclarr.Cli.Tests.Console.Helpers;
+namespace Recyclarr.Cli.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

@@ -1,7 +1,6 @@
 using Autofac.Features.Indexed;
-using Recyclarr.TrashLib.Config.Listers;
 
-namespace Recyclarr.TrashLib.Processors;
+namespace Recyclarr.TrashLib;
 
 public class ConfigListProcessor
 {

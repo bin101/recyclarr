@@ -1,8 +1,6 @@
-using Recyclarr.TrashLib.Config.Settings;
-using Recyclarr.TrashLib.Config.Yaml;
-using Recyclarr.TrashLib.Startup;
+using Recyclarr.TestLibrary;
 
-namespace Recyclarr.TrashLib.Tests.Config.Settings;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

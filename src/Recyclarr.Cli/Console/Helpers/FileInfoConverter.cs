@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.IO.Abstractions;
 
-namespace Recyclarr.Cli.Console.Helpers;
+namespace Recyclarr.Cli;
 
 internal class FileInfoConverter : TypeConverter
 {

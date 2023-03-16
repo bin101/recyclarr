@@ -1,7 +1,7 @@
 using FluentValidation.Results;
-using Recyclarr.Common.FluentValidation;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile.Filters;
+namespace Recyclarr.TrashLib;
 
 public class ReleaseProfileDataValidationFilterer
 {

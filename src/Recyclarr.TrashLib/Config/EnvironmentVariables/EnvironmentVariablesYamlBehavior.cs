@@ -1,9 +1,8 @@
 using JetBrains.Annotations;
 using Recyclarr.Common;
-using Recyclarr.TrashLib.Config.Yaml;
 using YamlDotNet.Serialization;
 
-namespace Recyclarr.TrashLib.Config.EnvironmentVariables;
+namespace Recyclarr.TrashLib;
 
 [UsedImplicitly]
 public class EnvironmentVariablesYamlBehavior : IYamlBehavior

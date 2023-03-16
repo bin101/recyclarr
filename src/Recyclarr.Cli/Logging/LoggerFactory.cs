@@ -1,13 +1,12 @@
 using System.IO.Abstractions;
-using Recyclarr.Common.Serilog;
+using Recyclarr.Common;
 using Recyclarr.TrashLib;
-using Recyclarr.TrashLib.Startup;
 using Serilog.Core;
 using Serilog.Events;
 using Serilog.Templates;
 using Serilog.Templates.Themes;
 
-namespace Recyclarr.Cli.Logging;
+namespace Recyclarr.Cli;
 
 public class LoggerFactory
 {

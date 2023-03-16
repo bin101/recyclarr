@@ -1,6 +1,4 @@
-using Recyclarr.TrashLib.Config.Secrets;
-
-namespace Recyclarr.TrashLib.Tests.Config.Secrets;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

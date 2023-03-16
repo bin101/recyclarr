@@ -1,4 +1,4 @@
-using Recyclarr.Common.Extensions;
+using Recyclarr.Common;
 
 namespace Recyclarr.TestLibrary;
 

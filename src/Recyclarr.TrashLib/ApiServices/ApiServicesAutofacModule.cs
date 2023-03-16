@@ -1,7 +1,6 @@
 using Autofac;
-using Recyclarr.TrashLib.ApiServices.System;
 
-namespace Recyclarr.TrashLib.ApiServices;
+namespace Recyclarr.TrashLib;
 
 public class ApiServicesAutofacModule : Module
 {

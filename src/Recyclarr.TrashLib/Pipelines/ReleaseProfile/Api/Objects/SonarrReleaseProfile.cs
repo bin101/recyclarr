@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using Newtonsoft.Json;
 
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile.Api.Objects;
+namespace Recyclarr.TrashLib;
 
 [UsedImplicitly(ImplicitUseKindFlags.Assign, ImplicitUseTargetFlags.Members)]
 public class SonarrPreferredTerm

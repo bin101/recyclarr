@@ -1,8 +1,4 @@
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Pipelines.QualityProfile.PipelinePhases;
-using Recyclarr.TrashLib.Processors;
-
-namespace Recyclarr.TrashLib.Pipelines.QualityProfile;
+namespace Recyclarr.TrashLib;
 
 public interface IQualityProfilePipelinePhases
 {

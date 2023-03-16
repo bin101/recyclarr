@@ -1,7 +1,7 @@
 using Castle.Core.Internal;
 using Spectre.Console;
 
-namespace Recyclarr.TrashLib.Pipelines.Tags.PipelinePhases;
+namespace Recyclarr.TrashLib;
 
 public class TagPreviewPhase
 {

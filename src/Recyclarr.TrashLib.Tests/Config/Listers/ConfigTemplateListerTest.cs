@@ -1,11 +1,9 @@
 using System.IO.Abstractions;
 using Recyclarr.Cli.TestLibrary;
-using Recyclarr.TrashLib.Config;
-using Recyclarr.TrashLib.Config.Listers;
-using Recyclarr.TrashLib.Config.Services;
+using Recyclarr.TestLibrary;
 using Spectre.Console.Testing;
 
-namespace Recyclarr.TrashLib.Tests.Config.Listers;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

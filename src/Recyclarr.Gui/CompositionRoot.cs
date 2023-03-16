@@ -3,7 +3,7 @@ using System.Reflection;
 using Autofac;
 using AutofacSerilogIntegration;
 using Recyclarr.Common;
-using Recyclarr.TrashLib.Startup;
+using Recyclarr.TrashLib;
 
 namespace Recyclarr.Gui;
 

@@ -1,6 +1,4 @@
-using Recyclarr.TrashLib.Repo;
-
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile.Guide;
+namespace Recyclarr.TrashLib;
 
 public class ReleaseProfileGuideService : IReleaseProfileGuideService
 {

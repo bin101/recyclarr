@@ -1,8 +1,6 @@
 using Flurl.Http;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Http;
 
-namespace Recyclarr.TrashLib.Pipelines.Tags.Api;
+namespace Recyclarr.TrashLib;
 
 public class SonarrTagApiService : ISonarrTagApiService
 {

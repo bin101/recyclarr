@@ -1,12 +1,9 @@
 using Recyclarr.Cli.TestLibrary;
-using Recyclarr.TrashLib.Config.Parsing;
-using Recyclarr.TrashLib.Config.Secrets;
-using Recyclarr.TrashLib.Config.Services.Sonarr;
 using Recyclarr.TrashLib.TestLibrary;
 using Serilog.Sinks.TestCorrelator;
 using YamlDotNet.Core;
 
-namespace Recyclarr.TrashLib.Tests.Config.Parsing;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

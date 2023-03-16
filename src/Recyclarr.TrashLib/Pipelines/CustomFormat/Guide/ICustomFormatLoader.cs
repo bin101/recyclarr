@@ -1,7 +1,6 @@
 using System.IO.Abstractions;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
 
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.Guide;
+namespace Recyclarr.TrashLib;
 
 public interface ICustomFormatLoader
 {

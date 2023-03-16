@@ -2,7 +2,7 @@ using System.Diagnostics;
 using FluentAssertions.Execution;
 using NSubstitute.Core.Arguments;
 
-namespace Recyclarr.TestLibrary.NSubstitute;
+namespace Recyclarr.TestLibrary;
 
 // Interface changes in IArgumentMatcher make nullability difficult
 // to deal with. So we just ignore that here for now.

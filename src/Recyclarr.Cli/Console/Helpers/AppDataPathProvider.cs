@@ -1,4 +1,4 @@
-namespace Recyclarr.Cli.Console.Helpers;
+namespace Recyclarr.Cli;
 
 public class AppDataPathProvider
 {

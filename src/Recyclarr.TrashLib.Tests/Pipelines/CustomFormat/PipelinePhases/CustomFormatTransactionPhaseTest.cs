@@ -1,10 +1,7 @@
 using Recyclarr.Cli.TestLibrary;
-using Recyclarr.TrashLib.Pipelines.CustomFormat;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.PipelinePhases;
 using Recyclarr.TrashLib.TestLibrary;
 
-namespace Recyclarr.TrashLib.Tests.Pipelines.CustomFormat.PipelinePhases;
+namespace Recyclarr.TrashLib.Tests;
 
 [TestFixture]
 [Parallelizable(ParallelScope.All)]

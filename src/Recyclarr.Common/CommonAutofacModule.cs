@@ -1,6 +1,5 @@
 using System.Reflection;
 using Autofac;
-using Recyclarr.Common.FluentValidation;
 using Module = Autofac.Module;
 
 namespace Recyclarr.Common;

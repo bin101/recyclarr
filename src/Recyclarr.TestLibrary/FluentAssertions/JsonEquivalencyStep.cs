@@ -2,7 +2,7 @@ using FluentAssertions.Equivalency;
 using FluentAssertions.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Recyclarr.TestLibrary.FluentAssertions;
+namespace Recyclarr.TestLibrary;
 
 public class JsonEquivalencyStep : IEquivalencyStep
 {

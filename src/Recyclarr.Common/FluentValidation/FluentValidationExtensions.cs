@@ -2,7 +2,7 @@ using FluentValidation;
 using FluentValidation.Results;
 using FluentValidation.Validators;
 
-namespace Recyclarr.Common.FluentValidation;
+namespace Recyclarr.Common;
 
 public static class FluentValidationExtensions
 {

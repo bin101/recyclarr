@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Config.Yaml;
+namespace Recyclarr.TrashLib;
 
 public class EmptyYamlException : Exception
 {

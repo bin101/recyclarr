@@ -1,8 +1,7 @@
 using MoreLinq;
-using Recyclarr.TrashLib.Config;
 using Spectre.Console;
 
-namespace Recyclarr.TrashLib.Pipelines.QualitySize.Guide;
+namespace Recyclarr.TrashLib;
 
 public class QualitySizeDataLister
 {

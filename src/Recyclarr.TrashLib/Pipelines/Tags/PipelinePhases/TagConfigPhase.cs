@@ -1,8 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Config.Services.Sonarr;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Pipelines.Tags.PipelinePhases;
+namespace Recyclarr.TrashLib;
 
 public class TagConfigPhase
 {

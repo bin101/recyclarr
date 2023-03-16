@@ -1,9 +1,6 @@
 using Flurl.Http;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Http;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
 
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.Api;
+namespace Recyclarr.TrashLib;
 
 internal class CustomFormatService : ICustomFormatService
 {

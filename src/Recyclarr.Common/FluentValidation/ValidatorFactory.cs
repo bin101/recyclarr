@@ -1,8 +1,7 @@
 using Autofac;
 using FluentValidation;
-using Recyclarr.Common.Extensions;
 
-namespace Recyclarr.Common.FluentValidation;
+namespace Recyclarr.Common;
 
 public class ValidatorFactory : IValidatorFactory
 {

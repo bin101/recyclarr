@@ -1,6 +1,6 @@
-using Recyclarr.TrashLib.Startup;
+using Recyclarr.TrashLib;
 
-namespace Recyclarr.Cli.Logging;
+namespace Recyclarr.Cli;
 
 public class LogJanitor : ILogJanitor
 {

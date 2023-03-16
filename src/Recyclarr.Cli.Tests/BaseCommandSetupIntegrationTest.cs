@@ -1,7 +1,6 @@
 using System.IO.Abstractions;
-using Recyclarr.Cli.Console.Setup;
 using Recyclarr.Cli.TestLibrary;
-using Recyclarr.TrashLib.Config.Settings;
+using Recyclarr.TrashLib;
 
 namespace Recyclarr.Cli.Tests;
 

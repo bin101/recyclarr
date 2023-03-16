@@ -1,7 +1,7 @@
 using FluentValidation;
 using FluentValidation.Validators;
 
-namespace Recyclarr.Common.FluentValidation;
+namespace Recyclarr.Common;
 
 internal sealed class NullableChildValidatorAdaptor<T, TProperty> : ChildValidatorAdaptor<T, TProperty>,
     IPropertyValidator<T, TProperty?>, IAsyncPropertyValidator<T, TProperty?>

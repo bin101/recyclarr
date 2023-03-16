@@ -1,5 +1,4 @@
 using System.IO.Abstractions;
-using Recyclarr.Common.Extensions;
 
 namespace Recyclarr.Common;
 

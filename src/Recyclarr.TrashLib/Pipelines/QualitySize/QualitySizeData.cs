@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Pipelines.QualitySize;
+namespace Recyclarr.TrashLib;
 
 public record QualitySizeData
 {

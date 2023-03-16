@@ -1,6 +1,6 @@
 ﻿using System.IO.Abstractions;
 
-namespace Recyclarr.TrashLib.Config.Parsing;
+namespace Recyclarr.TrashLib;
 
 public class ConfigurationLoader : IConfigurationLoader
 {

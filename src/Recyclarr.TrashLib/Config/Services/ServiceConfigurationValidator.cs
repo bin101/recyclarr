@@ -1,10 +1,8 @@
 using FluentValidation;
 using JetBrains.Annotations;
-using Recyclarr.Common.FluentValidation;
-using Recyclarr.TrashLib.Config.Services.Radarr;
-using Recyclarr.TrashLib.Config.Services.Sonarr;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Config.Services;
+namespace Recyclarr.TrashLib;
 
 [UsedImplicitly]
 internal class ServiceConfigurationValidator : AbstractValidator<ServiceConfiguration>

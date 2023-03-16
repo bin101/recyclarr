@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Repo;
+namespace Recyclarr.TrashLib;
 
 public record RadarrMetadata
 {

@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Config.Services.Radarr;
+namespace Recyclarr.TrashLib;
 
 public class RadarrConfiguration : ServiceConfiguration
 {

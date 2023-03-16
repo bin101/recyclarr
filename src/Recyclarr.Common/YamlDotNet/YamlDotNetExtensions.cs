@@ -4,7 +4,7 @@ using YamlDotNet.Serialization.NodeDeserializers;
 
 // ReSharper disable UnusedMember.Global
 
-namespace Recyclarr.Common.YamlDotNet;
+namespace Recyclarr.Common;
 
 public static class YamlDotNetExtensions
 {

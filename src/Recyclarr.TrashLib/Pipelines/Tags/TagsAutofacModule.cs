@@ -1,9 +1,7 @@
 using Autofac;
 using Autofac.Extras.AggregateService;
-using Recyclarr.TrashLib.Pipelines.Tags.Api;
-using Recyclarr.TrashLib.Pipelines.Tags.PipelinePhases;
 
-namespace Recyclarr.TrashLib.Pipelines.Tags;
+namespace Recyclarr.TrashLib;
 
 public class TagsAutofacModule : Module
 {

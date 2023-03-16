@@ -1,9 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Pipelines.CustomFormat.Models;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Pipelines.CustomFormat.PipelinePhases;
+namespace Recyclarr.TrashLib;
 
 public class CustomFormatTransactionPhase
 {

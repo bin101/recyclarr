@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Config.Settings;
+namespace Recyclarr.TrashLib;
 
 public interface ISettingsProvider
 {

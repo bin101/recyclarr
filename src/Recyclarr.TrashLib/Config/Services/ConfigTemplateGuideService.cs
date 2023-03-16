@@ -1,11 +1,9 @@
 using System.Collections.ObjectModel;
 using System.IO.Abstractions;
 using JetBrains.Annotations;
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Repo;
-using Recyclarr.TrashLib.Startup;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Config.Services;
+namespace Recyclarr.TrashLib;
 
 [UsedImplicitly(ImplicitUseKindFlags.InstantiatedNoFixedConstructorSignature)]
 public record TemplateEntry(string Id, string Template, bool Hidden = false);

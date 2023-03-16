@@ -1,6 +1,6 @@
 using Spectre.Console;
 
-namespace Recyclarr.TrashLib.Pipelines.QualitySize.PipelinePhases;
+namespace Recyclarr.TrashLib;
 
 public class QualitySizePreviewPhase
 {

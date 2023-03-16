@@ -2,11 +2,9 @@ using System.Data.HashFunction.FNV;
 using System.Globalization;
 using System.IO.Abstractions;
 using System.Text;
-using Recyclarr.TrashLib.Cache;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Startup;
+using Recyclarr.TrashLib;
 
-namespace Recyclarr.Cli.Console.Helpers;
+namespace Recyclarr.Cli;
 
 public class CacheStoragePath : ICacheStoragePath
 {

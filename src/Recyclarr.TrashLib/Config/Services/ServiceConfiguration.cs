@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
 using YamlDotNet.Serialization;
 
-namespace Recyclarr.TrashLib.Config.Services;
+namespace Recyclarr.TrashLib;
 
 public abstract class ServiceConfiguration : IServiceConfiguration
 {

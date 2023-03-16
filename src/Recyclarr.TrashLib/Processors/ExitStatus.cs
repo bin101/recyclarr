@@ -1,4 +1,4 @@
-namespace Recyclarr.TrashLib.Processors;
+namespace Recyclarr.TrashLib;
 
 public enum ExitStatus
 {

@@ -1,8 +1,8 @@
-using Recyclarr.Common.YamlDotNet;
+using Recyclarr.Common;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
-namespace Recyclarr.TrashLib.Config.Yaml;
+namespace Recyclarr.TrashLib;
 
 public class YamlSerializerFactory : IYamlSerializerFactory
 {

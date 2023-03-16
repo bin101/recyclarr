@@ -1,6 +1,6 @@
 using YamlDotNet.Serialization;
 
-namespace Recyclarr.TrashLib.Config.Yaml;
+namespace Recyclarr.TrashLib;
 
 public interface IYamlSerializerFactory
 {

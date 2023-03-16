@@ -1,9 +1,6 @@
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Api.Objects;
-using Recyclarr.TrashLib.Pipelines.ReleaseProfile.Models;
-using Recyclarr.TrashLib.Pipelines.Tags;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Pipelines.ReleaseProfile.PipelinePhases;
+namespace Recyclarr.TrashLib;
 
 public class ReleaseProfileTransactionPhase
 {

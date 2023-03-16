@@ -2,7 +2,7 @@ using System.Globalization;
 
 // ReSharper disable UnusedMember.Global
 
-namespace Recyclarr.Common.Extensions;
+namespace Recyclarr.Common;
 
 public static class StringExtensions
 {

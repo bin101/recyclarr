@@ -1,7 +1,6 @@
 using Autofac;
-using Recyclarr.Cli.Migration.Steps;
 
-namespace Recyclarr.Cli.Migration;
+namespace Recyclarr.Cli;
 
 public class MigrationAutofacModule : Module
 {

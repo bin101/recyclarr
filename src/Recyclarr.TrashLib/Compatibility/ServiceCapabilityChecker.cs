@@ -1,7 +1,4 @@
-using Recyclarr.TrashLib.ApiServices.System;
-using Recyclarr.TrashLib.Config.Services;
-
-namespace Recyclarr.TrashLib.Compatibility;
+namespace Recyclarr.TrashLib;
 
 public abstract class ServiceCapabilityChecker<T> where T : class
 {

@@ -1,8 +1,6 @@
-using Recyclarr.Common.Extensions;
-using Recyclarr.TrashLib.Config.Services;
-using Recyclarr.TrashLib.Pipelines.QualitySize.Guide;
+using Recyclarr.Common;
 
-namespace Recyclarr.TrashLib.Pipelines.QualitySize.PipelinePhases;
+namespace Recyclarr.TrashLib;
 
 public class QualitySizeGuidePhase
 {
