@@ -7,11 +7,16 @@ internal class AutofacTypeRegistrar : ITypeRegistrar
 {
     private readonly ContainerBuilder _builder;
     private readonly Action<ILifetimeScope> _assignScope;
+    private readonly Action<ContainerBuilder>? _extraRegistrations;
 
-    public AutofacTypeRegistrar(ContainerBuilder builder, Action<ILifetimeScope> assignScope)
+    public AutofacTypeRegistrar(
+        ContainerBuilder builder,
+        Action<ILifetimeScope> assignScope,
+        Action<ContainerBuilder>? extraRegistrations = null)
     {
         _builder = builder;
         _assignScope = assignScope;
+        _extraRegistrations = extraRegistrations;
     }
 
     public void Register(Type service, Type implementation)
@@ -31,6 +36,7 @@ internal class AutofacTypeRegistrar : ITypeRegistrar
 
     public ITypeResolver Build()
     {
+        _extraRegistrations?.Invoke(_builder);
         var container = _builder.Build();
         _assignScope(container);
         return new AutofacTypeResolver(container);

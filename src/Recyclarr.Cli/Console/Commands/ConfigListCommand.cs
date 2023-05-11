@@ -17,7 +17,7 @@ public class ConfigListCommand : AsyncCommand<ConfigListCommand.CliSettings>
     private readonly ConfigListProcessor _processor;
 
     [SuppressMessage("Design", "CA1034:Nested types should not be visible")]
-    public class CliSettings : BaseCommandSettings
+    public class CliSettings : ServiceCommandSettings
     {
         [CommandArgument(0, "[ListCategory]")]
         [EnumDescription<ConfigListCategory>(

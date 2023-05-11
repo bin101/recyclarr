@@ -74,8 +74,7 @@ public static class CompositionRoot
     private static void RegisterLogger(ContainerBuilder builder)
     {
         builder.RegisterType<LogJanitor>().As<ILogJanitor>();
-        builder.RegisterType<LoggerFactory>();
-        builder.Register(c => c.Resolve<LoggerFactory>().Create()).As<ILogger>().SingleInstance();
+        builder.RegisterType<LoggerFactory>().As<ILoggerFactory>();
     }
 
     private static void CommandRegistrations(ContainerBuilder builder)

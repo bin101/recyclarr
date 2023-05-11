@@ -9,7 +9,6 @@ using Recyclarr.TestLibrary.Autofac;
 using Recyclarr.TrashLib.ApiServices.System;
 using Recyclarr.TrashLib.Repo.VersionControl;
 using Recyclarr.TrashLib.Startup;
-using Serilog.Events;
 using Spectre.Console;
 using Spectre.Console.Testing;
 
@@ -25,7 +24,6 @@ public abstract class TrashLibIntegrationFixture : IDisposable
         Fs.Directory.Delete("temp", true);
 
         Paths = new AppPaths(Fs.CurrentDirectory().SubDirectory("test").SubDirectory("recyclarr"));
-        Logger = CreateLogger();
 
         _container = new Lazy<IContainer>(() =>
         {
@@ -33,10 +31,11 @@ public abstract class TrashLibIntegrationFixture : IDisposable
 
             RegisterTypes(builder);
 
+            builder.RegisterType<MockLoggerFactory>().As<ILoggerFactory>();
+
             builder.RegisterInstance(Fs).As<IFileSystem>();
             builder.RegisterInstance(Paths).As<IAppPaths>();
             builder.RegisterInstance(Console).As<IAnsiConsole>();
-            builder.RegisterInstance(Logger).As<ILogger>();
 
             builder.RegisterMockFor<IGitRepository>();
             builder.RegisterMockFor<IGitRepositoryFactory>();
@@ -65,15 +64,6 @@ public abstract class TrashLibIntegrationFixture : IDisposable
         builder.RegisterAutoMapper(c => c.AddCollectionMappers(), false, typeof(TrashLibAutofacModule).Assembly);
     }
 
-    private static ILogger CreateLogger()
-    {
-        return new LoggerConfiguration()
-            .MinimumLevel.Is(LogEventLevel.Verbose)
-            .WriteTo.TestCorrelator()
-            .WriteTo.Console()
-            .CreateLogger();
-    }
-
     // ReSharper disable MemberCanBePrivate.Global
 
     private readonly Lazy<IContainer> _container;
@@ -82,7 +72,6 @@ public abstract class TrashLibIntegrationFixture : IDisposable
     protected MockFileSystem Fs { get; } = new();
     protected TestConsole Console { get; } = new();
     protected IAppPaths Paths { get; }
-    protected ILogger Logger { get; }
 
     // ReSharper restore MemberCanBePrivate.Global
 

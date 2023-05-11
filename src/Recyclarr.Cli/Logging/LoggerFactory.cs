@@ -9,7 +9,7 @@ using Serilog.Templates.Themes;
 
 namespace Recyclarr.Cli.Logging;
 
-public class LoggerFactory
+public class LoggerFactory : ILoggerFactory
 {
     private readonly IAppPaths _paths;
     private readonly LoggingLevelSwitch _levelSwitch;

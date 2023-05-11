@@ -33,6 +33,7 @@ public class TrashLibAutofacModule : Module
         builder.RegisterType<ServiceRequestBuilder>().As<IServiceRequestBuilder>();
         builder.RegisterModule<CacheAutofacModule>();
         builder.RegisterType<FlurlClientFactory>().As<IFlurlClientFactory>().SingleInstance();
+        builder.Register(c => c.Resolve<ILoggerFactory>().Create()).As<ILogger>().SingleInstance();
     }
 
     private static void CommonRegistrations(ContainerBuilder builder)

@@ -40,6 +40,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{18E17C53
 		tests\Directory.Build.props = tests\Directory.Build.props
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recyclarr.Cli.Tests.Integration", "tests\Recyclarr.Cli.Tests.Integration\Recyclarr.Cli.Tests.Integration.csproj", "{F5FF6B60-D81F-4734-AA96-BEF1C606F89D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "IntegrationTests", "{16AF4415-BB23-4CDF-93BE-0E7A791B8BA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -94,6 +98,10 @@ Global
 		{A92321B5-2796-467B-B5A5-2BFC41167A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A92321B5-2796-467B-B5A5-2BFC41167A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A92321B5-2796-467B-B5A5-2BFC41167A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5FF6B60-D81F-4734-AA96-BEF1C606F89D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FF6B60-D81F-4734-AA96-BEF1C606F89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FF6B60-D81F-4734-AA96-BEF1C606F89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FF6B60-D81F-4734-AA96-BEF1C606F89D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,5 +118,6 @@ Global
 		{BF105B2F-8E13-48AD-BF72-DF7EFEB018B6} = {18E17C53-F600-40AE-82C1-3CD1E547C307}
 		{33226068-65E3-4890-8671-59A56BA3F6F0} = {18E17C53-F600-40AE-82C1-3CD1E547C307}
 		{A4EC7E0D-C591-4874-B9AC-EB12A96F3E83} = {18E17C53-F600-40AE-82C1-3CD1E547C307}
+		{F5FF6B60-D81F-4734-AA96-BEF1C606F89D} = {16AF4415-BB23-4CDF-93BE-0E7A791B8BA2}
 	EndGlobalSection
 EndGlobal
