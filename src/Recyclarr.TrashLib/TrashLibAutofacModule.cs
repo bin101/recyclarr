@@ -1,4 +1,3 @@
-using System.Reflection;
 using Autofac;
 using Autofac.Extras.Ordering;
 using AutoMapper.Contrib.Autofac.DependencyInjection;
@@ -12,14 +11,11 @@ using Recyclarr.TrashLib.Http;
 using Recyclarr.TrashLib.Repo;
 using Recyclarr.TrashLib.Repo.VersionControl;
 using Recyclarr.TrashLib.Startup;
-using Module = Autofac.Module;
 
 namespace Recyclarr.TrashLib;
 
 public class TrashLibAutofacModule : Module
 {
-    public Assembly? AdditionalMapperProfileAssembly { get; init; }
-
     protected override void Load(ContainerBuilder builder)
     {
         base.Load(builder);
@@ -38,13 +34,7 @@ public class TrashLibAutofacModule : Module
         builder.RegisterType<ServiceRequestBuilder>().As<IServiceRequestBuilder>();
         builder.RegisterType<FlurlClientFactory>().As<IFlurlClientFactory>().SingleInstance();
 
-        var mapperAssemblies = new List<Assembly> {ThisAssembly};
-        if (AdditionalMapperProfileAssembly is not null)
-        {
-            mapperAssemblies.Add(AdditionalMapperProfileAssembly);
-        }
-
-        builder.RegisterAutoMapper(c => c.AddCollectionMappers(), false, mapperAssemblies.ToArray());
+        builder.RegisterAutoMapper(c => c.AddCollectionMappers(), false, ThisAssembly);
     }
 
     private static void CommonRegistrations(ContainerBuilder builder)
