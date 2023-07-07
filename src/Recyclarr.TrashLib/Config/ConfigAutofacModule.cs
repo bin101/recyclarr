@@ -1,4 +1,5 @@
 using Autofac;
+using Autofac.Extras.Ordering;
 using FluentValidation;
 using Recyclarr.TrashLib.Config.Listers;
 using Recyclarr.TrashLib.Config.Parsing;
@@ -41,6 +42,9 @@ public class ConfigAutofacModule : Module
         builder.RegisterType<ConfigLocalLister>().Keyed<IConfigLister>(ConfigCategory.Local);
 
         // Config Post Processors
-        builder.RegisterType<ImplicitUrlAndKeyPostProcessor>().As<IConfigPostProcessor>();
+        builder.RegisterTypes(
+                typeof(ImplicitUrlAndKeyPostProcessor))
+            .As<IConfigPostProcessor>()
+            .OrderByRegistration();
     }
 }

@@ -64,6 +64,7 @@ public class SyncProcessor : ISyncProcessor
             var configs = _configLoader.LoadMany(_configFinder.GetConfigFiles(configFiles[true].ToList()));
 
             LogInvalidInstances(settings.Instances, configs);
+            configs = FilterAndLogSplitInstances(configs);
 
             failureDetected = await ProcessService(settings, configs);
         }
@@ -74,6 +75,10 @@ public class SyncProcessor : ISyncProcessor
         }
 
         return failureDetected ? ExitStatus.Failed : ExitStatus.Succeeded;
+    }
+
+    private ICollection<IServiceConfiguration> FilterAndLogSplitInstances(IEnumerable<IServiceConfiguration> configs)
+    {
     }
 
     private void LogInvalidInstances(IEnumerable<string>? instanceNames, ICollection<IServiceConfiguration> configs)
@@ -91,8 +96,9 @@ public class SyncProcessor : ISyncProcessor
     private async Task<bool> ProcessService(ISyncSettings settings, ICollection<IServiceConfiguration> configs)
     {
         var failureDetected = false;
+        var filteredConfigs = configs.GetConfigsBasedOnSettings(settings);
 
-        foreach (var config in configs.GetConfigsBasedOnSettings(settings))
+        foreach (var config in filteredConfigs)
         {
             try
             {

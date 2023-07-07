@@ -17,4 +17,22 @@ public static class ProcessorExtensions
             .Where(x => settings.Instances.IsEmpty() ||
                 settings.Instances!.Any(y => y.EqualsIgnoreCase(x.InstanceName)));
     }
+
+    public static IEnumerable<IServiceConfiguration> Merge(this IEnumerable<IServiceConfiguration> configs)
+    {
+        return configs
+            .ToLookup(x => x.BaseUrl)
+            .Select(x => MergeConfigs(x.Key, x.ToList()));
+    }
+
+    private static IServiceConfiguration MergeConfigs(Uri baseUrl, IList<IServiceConfiguration> configs)
+    {
+        var merged = configs[0];
+        for (var i = 1; i < configs.Count; ++i)
+        {
+            merged = merged.Merge(configs[i]);
+        }
+
+        return merged;
+    }
 }
